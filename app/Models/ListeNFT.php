@@ -5,11 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class ListNFT extends Model
+class ListeNFT extends Model
 {
     use HasFactory;
 
-    protected $table = "lists";
+    protected $table = "listes";
 
     function nft(){
 

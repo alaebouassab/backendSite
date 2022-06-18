@@ -10,12 +10,12 @@ class NftController extends Controller
     
     function getNFTS(Request $request){
 
-       return Nft::with(['lists','lists.rankInfo'])->get();
+       return Nft::with(['listes','listes.rankInfo'])->get();
         
     }
     function getNftDetails(Request $request,NFT $nft){
 
-       return $nft->load("lists");
+       return $nft->load("listes");
     }
 
     function getProjects(){

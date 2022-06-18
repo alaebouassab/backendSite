@@ -9,7 +9,7 @@ class RankInfo extends Model
 {
     use HasFactory;
 
-      protected $table = "rankinginfo";
+      protected $table = "rankinginfos";
 
         function list(){
 
